@@ -5,8 +5,7 @@ body {
     background-position: center;
     color: white;
     width: 100%
-    height: auto;
-    class: img-responsive;
+    height: responsive;
 }
 h1 {
   color:white;
