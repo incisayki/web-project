@@ -1,8 +1,43 @@
 body {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg/1280px-Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg");
+  background-image: url("http://theartagency.co.uk/wp-content/uploads/Lighthouse-Dawn-20x40-140802980-e1456241693790.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    color: white;
 }
 h1 {
   color:white;
   font-size: 100px;
-  background-image: url("4445.jpg_wh860.jpg");
-}
+  }
+
+  /* Style the navbar */
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
