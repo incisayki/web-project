@@ -4,7 +4,8 @@ body {
     background-size: cover;
     color: white;
     class: img-responsive;
-    min-width: 100%
+    width: 100%
+    height: auto;
 }
 h1 {
   color:white;
