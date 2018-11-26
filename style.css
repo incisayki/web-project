@@ -4,7 +4,7 @@ body {
     background-size: cover;
     color: white;
     class: img-responsive;
-    min-height: 4em
+    min-width: 100%
 }
 h1 {
   color:white;
