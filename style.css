@@ -3,6 +3,7 @@ body {
     background-repeat:no-repeat;
     background-size: cover;
     color: white;
+    class: img-responsive;
 }
 h1 {
   color:white;
