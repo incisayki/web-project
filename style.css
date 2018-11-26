@@ -1,7 +1,7 @@
 body {
   background-image: url("http://theartagency.co.uk/wp-content/uploads/Lighthouse-Dawn-20x40-140802980-e1456241693790.jpg");
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color: white;
 }
 h1 {
