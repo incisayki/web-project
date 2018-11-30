@@ -26,8 +26,9 @@ li a:hover {
 
 h1 {
   color:white;
-  font-size: 10px;
-  letter-spacing: 3px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 3;
   }
 
 
@@ -35,6 +36,7 @@ h2 {
   color:white;
   font-size: 10px;
   letter-spacing: 3px;
+  line-height: 3;
 }
 
   /* Style the navbar */
@@ -73,6 +75,8 @@ h2 {
   }
 
 
+
+
 .sideimagespot{
 
     height: 100vh;
@@ -104,6 +108,7 @@ height: 100%;
     text-align: right;
     font-size: 10px;
     letter-spacing: 3px;
+    line-height: 1.6;
 }
 
 .container-fluid{
@@ -136,11 +141,6 @@ li a {
 
 li a:hover {
     background-color: #111;
-}
-
-img{
-  display:block;
-  width: 10%;
 }
 
 /* Style all font awesome icons */
@@ -177,16 +177,10 @@ img{
   color: white;
 }
 
-.btn {
-    border: none;
-    background-color: #2980B9;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
+input [type=submit]{
+  background-color: #2980B9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
 }
-
-/* On mouse-over */
-.btn:hover {background: #2980B9;}
-
-.submit {color: #2980B9;}
