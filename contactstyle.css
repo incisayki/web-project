@@ -176,3 +176,17 @@ img{
   background: #2E86C1;
   color: white;
 }
+
+.btn {
+    border: none;
+    background-color: #2980B9;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #2980B9;}
+
+.submit {color: #2980B9;}
