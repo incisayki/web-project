@@ -3,64 +3,41 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="UTF-8"
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src='scripts/script.js'>
   </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
 
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    li a:hover {
-        background-color: #111;
-    }
     </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  </head>
 
 <body>
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#gallery">Gallery</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a class="active" href="#gallery">Gallery</a></li>
+    <li><a class="active" href="contact.html">Contact</a></li>
+  </ul>
 
 
 
 <div class="container-fluid">
 
 
-<div class="sideimagespot col-md-4">
+<div class="sideimagespot col-md-8">
 
-<div class="random">
+  <div class="random">
+
+
+  </div>
+
 
 
 </div>
-
-
-
-</div>
-<div class="mainbody col-md-8">
+<div class="mainbody col-md-4">
 
   <h1>Contact</h1>
   <p>Sign up with your email address to find out more</p>
@@ -70,17 +47,15 @@
     <br / >
     <input type="text" placeholder="What should we call you?">
     <br / >
-    <input type="date">
-    <br / >
     <input type="radio" name="gender" value="male">M
     <input type="radio" name="gender" value="male">F
     <input type="radio" name="gender" value="male">N/A
-    <br/ >
-    <textarea id="message" name="message" placeholder="Anything you want to tell us?" style="height:170px"></textarea>
+    <br / >
+    <textarea id="message" name="message" placeholder="Anything you want to let us know?" style="height:170px"></textarea>
     <br / >
     <input type="checkbox">Share my registration data with Pam Carter's content providers for marketing purposes.
     <br / >
-    <input type="submit">
+    <button class="btn submit">Submit</button>
   <p>Can't wait? Check out Pam's social pages</p>
   <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
   <a href="https://twitter.com/" class="fa fa-twitter"></a>
